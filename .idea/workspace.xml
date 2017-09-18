@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2106680c-05a0-43fc-859b-57c5d3fe8d76" name="Default" comment="" />
+    <list default="true" id="2106680c-05a0-43fc-859b-57c5d3fe8d76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/start.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/text.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/NOTICE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/add_a_todo_item.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/add_a_todo_item.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/add_a_todo_item.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/text.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/text.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/tslint.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package-lock.json" afterPath="$PROJECT_DIR$/serenity-screen-play/package-lock.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/protractor.conf.js" afterPath="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/expect.js" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/expect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/expect.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/expect.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/expect.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/expect.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/expect.js" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/expect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/expect.js.map" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/expect.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,109 +61,112 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lloydsProject" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todo_user.steps.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NOTICE.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/NOTICE.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package.json">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/protractor/node_modules/@types/node/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="5895">
+              <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md">
+      <file leaf-file-name="todo_List_items.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo_list.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="e#0#69#0" expanded="true" />
+                <element signature="e#0#65#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_List_items.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_List_items.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_List_items.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_List_items.js.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.d.ts">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/@types/node/index.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_new_items.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -132,8 +184,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md" root0="FORCE_HIGHLIGHTING" />
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +197,41 @@
         <option value="$PROJECT_DIR$/serenitystartguide/tutorial-from-scripts-to-serenity-master/spec/screenPlay/components/todo_list.ts" />
         <option value="$PROJECT_DIR$/serenitystartguide/tutorial-from-scripts-to-serenity-master/features/add_new_items.feature" />
         <option value="$PROJECT_DIR$/serenitystartguide/tutorial-from-scripts-to-serenity-master/features/step_definitions/todo_user.steps.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/sign_up.ts.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/click_the_btns.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/signUp.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/test.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/type_info.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/fields.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/type_info.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/sign_up.feature" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/sign_up.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/sign_up.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/login.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/questions/text_check.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/ensure.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/errorMessages.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled/text.d.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/serenity-js/lib/serenity-protractor/screenplay/questions/text.d.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/protractor/node_modules/@types/node/index.d.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/questions/todo_List_items.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/@types/node/index.d.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/login.feature" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/login.ts" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package.json" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package-lock.json" />
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts" />
+        <option value="$PROJECT_DIR$/serenity-screen-play/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -153,13 +242,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules" />
+    <handled-path value="$PROJECT_DIR$/serenity-screen-play/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1172" />
-    <option name="height" value="688" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -177,39 +265,43 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="lloydsProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity.js framework example passed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lloydsProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity.js framework example passed" type="462c0819:PsiDirectoryNode" />
-              <item name="serenitystartguide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lloydsProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity.js framework example passed" type="462c0819:PsiDirectoryNode" />
-              <item name="serenitystartguide" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity-screen-play" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lloydsProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serenity.js-framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serenity-screen-play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Rajini Mudrakolla\Downloads\tutorial-from-scripts-to-serenity-master\serenitystartguide" />
     </key>
   </component>
@@ -225,25 +317,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.js.add_new_items.feature">
+  <component name="RunManager">
+    <configuration default="false" name="add_new_items.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" value="C:$PROJECT_DIR$/../../../../Rajini Mudrakolla/Downloads/tutorial-from-scripts-to-serenity-master/serenitystartguide/tutorial-from-scripts-to-serenity-master/features/add_new_items.feature" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
-      <option name="filePath" value="C:\Users\Rajini Mudrakolla\Downloads\tutorial-from-scripts-to-serenity-master\serenitystartguide\tutorial-from-scripts-to-serenity-master\features\add_new_items.feature" />
+      <option name="filePath" value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/login.feature" />
+      <method />
     </configuration>
-    <configuration name="add_new_items.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" value="C:\Users\Rajini Mudrakolla\Downloads\tutorial-from-scripts-to-serenity-master\serenitystartguide\tutorial-from-scripts-to-serenity-master\features\add_new_items.feature" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.js.add_new_items.feature" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.js.add_new_items.feature" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -257,459 +412,802 @@
       <workItem from="1505313332642" duration="1626000" />
       <workItem from="1505316317854" duration="2517000" />
       <workItem from="1505401181426" duration="695000" />
+      <workItem from="1505421661123" duration="7667000" />
+      <workItem from="1505463057177" duration="13291000" />
+      <workItem from="1505480488826" duration="19437000" />
+      <workItem from="1505514644422" duration="5880000" />
+      <workItem from="1505521113131" duration="1878000" />
+      <workItem from="1505543297232" duration="29666000" />
+      <workItem from="1505666915406" duration="5659000" />
+      <workItem from="1505725384827" duration="1036000" />
+      <workItem from="1505727694183" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16474000" />
+    <option name="totallyTimeSpent" value="100996000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1172" height="688" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="641" extended-state="0" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29276896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2568306" sideWeight="0.49003986" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4511517" sideWeight="0.48739496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.49721116" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5099602" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.49317408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25418326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5530547" sideWeight="0.47729084" order="13" side_tool="false" content_ui="tabs" x="0" y="23" width="1280" height="709" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30341542" sideWeight="0.5126051" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4970314" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5099602" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35076922" sideWeight="0.49003986" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25418326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.49721116" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49317408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5530547" sideWeight="0.47729084" order="13" side_tool="false" content_ui="tabs" x="0" y="23" width="1280" height="731" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30341542" sideWeight="0.48739496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4970314" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30341542" sideWeight="0.5126051" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/src/text.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/src/expect.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/src/text.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/src/expect.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/features/support/world.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/features/support/world.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/features/step_definitions/todo_user.steps.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-cucumber/features/step_definitions/todo_user.steps.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/manage_the_todo_list/add_new_items.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/manage_the_todo_list/add_new_items.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/manage_the_todo_list/complete_items.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/manage_the_todo_list/complete_items.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/find_things_to_do/filter_the_list.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/spec/find_things_to_do/filter_the_list.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/src/tasks/ensure.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/examples/todomvc-protractor-mocha/src/tasks/ensure.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/features/step_definitions/steps.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/model.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/events.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/attempt_require.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/file_system.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/json.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/stage_manager.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/stage.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/expect.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/reporting/console_reporter.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/serenity.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/config.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/activity_description.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/rehearsal_report.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/report_exporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/serenity_bdd_report.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/console_reporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/serenity_bdd_reporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/question.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/actor.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/activities.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/keys.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/keys.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/photographer-timing.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/photographer.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/photographer.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/stage/photographer-timing.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/test_framework_detector.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/stand_ins.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/stand_ins.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/test_framework_adapter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/test_framework_detector.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/serenity_protractor_framework.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/serenity_protractor_framework.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/serenity_framework_config.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/test_framework_adapter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/framework/serenity_framework_config.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_notifier.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_browser_detector.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_notifier.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_browser_detector.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_report.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_reporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_reporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/reporting/protractor_report.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/ui/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/ui/target.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/ui/target.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/ui/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/abilities/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/abilities/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/abilities/browse_the_web.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/abilities/browse_the_web.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/web_element.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/website.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/attribute.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/value.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/value.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/text.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/web_element.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/selected_value.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/text.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/selected_value.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/website.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/attribute.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/questions/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/double_click.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/evaluate.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/double_click.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/evaluate.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/resize_browser_window.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/scroll.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/execute.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/wait.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/select.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/select.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/switch.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/wait.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/hit.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/use_angular.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/clear.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/clear.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/scroll.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/use_angular.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/switch.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/enter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/click.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/enter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/resize_browser_window.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/hit.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/open.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/open.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/click.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-protractor/screenplay/interactions/execute.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/expect.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/expect.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/event_picker.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/child_process_reporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/child_process_reporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/spawner.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/spawner.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/event_picker.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/html_form.recipe.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/html_form.recipe.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/windows.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/angular_internals.recipe.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/windows.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/angular_internals.recipe.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/waiting.recipe.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/content.recipe.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/mouse_events.recipe.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/content.recipe.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/waiting.recipe.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/cookbook/mouse_events.recipe.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/keys.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/keys.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/server/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/support/server/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/mocha/recognises_scenario_results.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/mocha/recognises_scenario_results.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_scenario_results.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_timed_out_scenarios.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_special_step_arguments.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_special_step_arguments.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_scenario_results.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_scenario_tags.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_timed_out_scenarios.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/recognises_scenario_tags.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/stage/photographer.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/stage/photographer.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/serenity_protractor_framework.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/serenity_protractor_framework.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/test_framework_detector.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/protractor_reporter.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/protractor_reporter.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/framework/test_framework_detector.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/mocha/spec/results.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/mocha/spec/results.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/ui/target.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/ui/target.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/resize_browser_window.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/fake_browser.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/click.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/resize_browser_window.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/open.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/see.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/open.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/fake_browser.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/enter.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/click.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/see.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/api/serenity-protractor/screenplay/interactions/enter.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/features/step_definitions/steps.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/spec/integration/cucumber/features/step_definitions/steps.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/stage_crew.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/screenplay-protractor.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/screenplay.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/stage_crew.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/screenplay-protractor.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/screenplay.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/controlflow.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/mocha_config.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/stage_cue.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/model.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/mocha_test_framework.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/mocha_config.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/controlflow.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/stage_cue.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/model.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-mocha/mocha_test_framework.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/stage_cue.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/cucumber_serenity_notifier.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/stage_cue.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/webdriver_synchroniser.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/cucumber_test_framework.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/webdriver_synchroniser.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/cucumber_test_framework.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/serenity-js/src/serenity-cucumber/cucumber_serenity_notifier.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/features/step_definitions/steps.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/adapted-cucumber/adapter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/adapted-cucumber/adapter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/spawner/child_process_reporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/spawner/spawner.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/spawner/child_process_reporter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/spawner/spawner.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/cucumber_adapter.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/expect.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/expect.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/spec/cucumber_adapter.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/register.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/cucumber_options.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/cucumber_options.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/model.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/cucumber_adapter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/notifier.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/cucumber_adapter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/stage_cue.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/model.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/stage_cue.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/register.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/cucumber-2/src/notifier.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/reporting/console_reporter.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/reporting/serenity_bdd_reporter.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/reporting/serenity_bdd_reporter.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording/step_annotation.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording/activity_description.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording/step_annotation.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording/activity_description.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/domain/model.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/domain/events.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/domain/model.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/domain/events.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/io/file_system.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/io/attempt_require.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/io/file_system.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/io/attempt_require.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/stage/stage_manager.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/stage/stage_manager.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/stage/stage.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/stage/stage.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/abilities/take_notes.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/abilities/take_notes.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/take_note.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/see.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/take_note.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/see.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/compare_notes.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/compare_notes.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/interactions/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/abilities/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/abilities/take_notes.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/abilities/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/abilities/take_notes.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/console_reporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/serenity_bdd_report.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/serenity_bdd_reporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/rehearsal_report.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/reporting/report_exporter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/expectations.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/lists.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/expectations.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/question.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/lists.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/activities.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/screenplay/actor.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/step_annotation.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/step_annotation.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/async.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/async.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/recording/activity_description.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/integration/index.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/integration/test_framework_adapter.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/integration/test_framework_adapter.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/integration/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/model.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/domain/events.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/json.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/file_system.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/io/attempt_require.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/stage.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/stage/stage_manager.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/recording.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/screenplay.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/expect.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/screenplay.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/serenity.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/serenity.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/config.spec.js" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/spec/config.spec.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/index.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/serenity.js.map" />
+        <option value="$PROJECT_DIR$/../serenity-js/packages/core/src/config.js.map" />
+      </list>
+    </option>
+    <option name="configsExcludedFiles">
+      <set>
+        <option value="$PROJECT_DIR$/serenitystartguide/serenity-screen-play/staging/transpiled" />
+      </set>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/selenium-webdriver/lib/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="1605">
+          <caret line="107" column="2" lean-forward="false" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/type_info.js" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/protractor/built/runner.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/NOTICE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.js">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/expect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/questions/text_check.ts" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/questions/text_checks.js" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/expect.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/expect.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/expect.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/text.ts">
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/errorMessages.js" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/errorMessages.ts" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/ensure.js" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/ensure.ts" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.js">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/serenity-js/lib/serenity-protractor/screenplay/questions/text.d.ts" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/type_info.ts" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/serenity-js/lib/serenity-protractor/screenplay/ui/target.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/@serenity-js/core/lib/screenplay/interactions/see.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/ensure.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/text.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/target/site/serenity/0a2cf3b8df5107dcf5515a0cc326dca3.png" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/target/site/serenity/0bd4257ead96d9f2a949d5e6a3e6f814.png" />
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/target/site/serenity/ca87d96fdda7a479dd74af6d7c49a06b.json" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/start.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/tasks/add_a_todo_item.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/target/site/serenity/38e6d02e5e393aa24cdf5821afc6dd92111b4261fa02877fca4632298c86e549.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/target/site/serenity/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/target/site/serenity/3194daf3843b02f8e8dac55b4c3c301d8b49ced3661b1b0783482720e51c7f38_screenshots.html" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/target/site/serenity/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/start.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/NOTICE.md" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md" />
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5895">
+          <caret line="393" column="10" lean-forward="false" selection-start-line="393" selection-start-column="10" selection-end-line="393" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/@types/node/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/node_modules/ts-node/dist/index.js">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/node_modules/protractor/node_modules/@types/node/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/add_new_items.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/features/step_definitions/todo_user.steps.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/NOTICE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitystartguide/serenity-screen-play/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lloydsProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

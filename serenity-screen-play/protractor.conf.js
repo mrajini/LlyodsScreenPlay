@@ -6,21 +6,14 @@ const
 
 exports.config = {
 
-    baseUrl: 'http://todomvc.com',
-
+    baseUrl: 'https://online.lloydsbank.co.uk',
     seleniumServerJar: seleniumJar,
-
-    // https://github.com/angular/protractor/blob/master/docs/timeouts.md
     allScriptsTimeout: 110000,
-
     disableChecks: true,
-
-    // https://github.com/protractor-cucumber-framework/protractor-cucumber-framework#uncaught-exceptions
     ignoreUncaughtExceptions: true,
-
     framework: 'custom',
-    frameworkPath: require.resolve('protractor-cucumber-framework'),
-
+    // frameworkPath: require.resolve('protractor-cucumber-framework'),
+    frameworkPath: require.resolve('serenity-js'),
     specs: [ 'features/**/*.feature' ],
 
     cucumberOpts: {
@@ -33,7 +26,8 @@ exports.config = {
         browserName: 'chrome',
         chromeOptions: {
             args: [
-                'disable-infobars'
+                'disable-infobars',
+                // 'disable-Angular.js'
                 // 'incognito',
                 // 'disable-extensions',
                 // 'show-fps-counter=true'
