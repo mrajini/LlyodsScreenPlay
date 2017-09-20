@@ -9,4 +9,14 @@ Java(TM) SE Runtime Environment (build 1.8.0_144-b01)
 
 4.A web browser ——Google chrome
 
-5.Run through terminal using npm test command
+5.Clone the repo from github
+
+6.Run through terminal using as below
+ 
+ (a). npm package.json
+ 
+ (b). npm install
+ 
+ (c). npm test to run the scripts
+
+Note:To run it headless uncomment ---headless under desirabilities defined in protractor.conf.js

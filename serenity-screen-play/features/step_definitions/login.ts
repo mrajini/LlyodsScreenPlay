@@ -5,8 +5,6 @@ import {browser, protractor} from "protractor";
 import {TodoList} from "../../spec/screenPlay/components/todo_list";
 import {expect} from "../../spec/expect";
 import {TodoListItems} from "../../staging/transpiled/screenPlay/questions/todo_List_items";
-import {Ensure} from "../../staging/transpiled/screenPlay/tasks/ensure";
-
 
 
 export = function tosignUpSteps() {
@@ -23,8 +21,8 @@ export = function tosignUpSteps() {
             Start.navigateToPage(),
 
         );
-
     });
+
     this.When(/^he enters his user id as (.*)$/, function (userInfo: string) {
         return actor.attemptsTo(
             Enter.theValue(userInfo).into(TodoList.enter_user_id)
@@ -43,19 +41,16 @@ export = function tosignUpSteps() {
     });
     this.Then(/^he should not get successful login message containing that (.*)$/, function (items:string) {
         return actor.attemptsTo(
-            // See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.empty(items)),
-            See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.not.equal(items)),
+            See.if(TodoListItems.errorDisplayed, actual => expect(actual).to.eventually.not.equal(items)),
         );
     });
 
     this.Then(/^he should get error message containing that (.*)$/, function (items:string) {
 
          return actor.attemptsTo(
-             // Ensure.errorMessagecontains(items),
-             See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.contain(items)),
+             See.if(TodoListItems.errorDisplayed, actual => expect(actual).to.eventually.contain(items)),
          );
-        // return actor.toSee(Text.(TextOf(toString(TodoList.error_message_displayed).eventually.contain(errorMessage))
-        //  Ensure.errorMessagecontains(items))
+
     });
 
 
@@ -64,9 +59,3 @@ export = function tosignUpSteps() {
 
 
 
-// this.Then(/^(.*?) should be recorded in his list$/, function(item: string) {
-//
-//     return actor.attemptsTo(
-//         See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.contain(item)),
-//     );
-// });

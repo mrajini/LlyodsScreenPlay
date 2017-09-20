@@ -25,21 +25,9 @@ module.exports = function tosignUpSteps() {
         return actor.attemptsTo(serenity_protractor_1.Click.on(todo_list_1.TodoList.click_on_continue));
     });
     this.Then(/^he should not get successful login message containing that (.*)$/, function (items) {
-        return actor.attemptsTo(
-        // See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.empty(items)),
-        screenplay_1.See.if(todo_List_items_1.TodoListItems.Displayed, function (actual) { return expect_1.expect(actual).to.eventually.not.equal(items); }));
+        return actor.attemptsTo(screenplay_1.See.if(todo_List_items_1.TodoListItems.errorDisplayed, function (actual) { return expect_1.expect(actual).to.eventually.not.equal(items); }));
     });
     this.Then(/^he should get error message containing that (.*)$/, function (items) {
-        return actor.attemptsTo(
-        // Ensure.errorMessagecontains(items),
-        screenplay_1.See.if(todo_List_items_1.TodoListItems.Displayed, function (actual) { return expect_1.expect(actual).to.eventually.contain(items); }));
-        // return actor.toSee(Text.(TextOf(toString(TodoList.error_message_displayed).eventually.contain(errorMessage))
-        //  Ensure.errorMessagecontains(items))
+        return actor.attemptsTo(screenplay_1.See.if(todo_List_items_1.TodoListItems.errorDisplayed, function (actual) { return expect_1.expect(actual).to.eventually.contain(items); }));
     });
 };
-// this.Then(/^(.*?) should be recorded in his list$/, function(item: string) {
-//
-//     return actor.attemptsTo(
-//         See.if(TodoListItems.Displayed, actual => expect(actual).to.eventually.contain(item)),
-//     );
-// });

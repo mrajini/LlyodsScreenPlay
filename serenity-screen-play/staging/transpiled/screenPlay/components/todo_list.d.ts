@@ -5,4 +5,5 @@ export declare class TodoList {
     static click_on_continue: Target;
     static error_message_displayed: Target;
     static Items: Target;
+    static clicl_on_register: Target;
 }

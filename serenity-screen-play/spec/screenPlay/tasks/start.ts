@@ -4,8 +4,6 @@ import {TodoList} from "../components/todo_list";
 import {browser} from "protractor";
 import { Open, step } from 'serenity-js/lib/screenplay-protractor';
 
-
-
 export class Start implements Task{
     static navigateToPage(){
         return new Start();

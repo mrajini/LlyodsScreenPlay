@@ -17,7 +17,8 @@ exports.config = {
     specs: [ 'features/**/*.feature' ],
 
     cucumberOpts: {
-        require:    [ 'features/**/*.ts' ],
+        require:    [ 'features/**/*.ts'],
+        // require:    [ 'features/login.ts'],
         format:     'pretty',
         compiler:   'ts:ts-node/register'
     },

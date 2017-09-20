@@ -20,5 +20,8 @@ export class TodoList{
 
       static Items = Target.the('List of Items').located(by.repeater('todo in todos'));
 
-     // static Displayed: Question<string> = Text.ofAll(Items);
+
+    static clicl_on_register = Target.the('register button')
+        .located(by.xpath('//*[@title ="register online"]'));
+
 }

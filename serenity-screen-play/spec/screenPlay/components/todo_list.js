@@ -16,4 +16,6 @@ TodoList.click_on_continue = serenity_protractor_1.Target.the('login')
 TodoList.error_message_displayed = serenity_protractor_1.Target.the('error text')
     .located(protractor_1.by.xpath('//*[@id="frmLogin"]/div/div[1]'));
 TodoList.Items = serenity_protractor_1.Target.the('List of Items').located(protractor_1.by.repeater('todo in todos'));
+TodoList.clicl_on_register = serenity_protractor_1.Target.the('register button')
+    .located(protractor_1.by.xpath('//*[@title ="register online"]'));
 exports.TodoList = TodoList;
