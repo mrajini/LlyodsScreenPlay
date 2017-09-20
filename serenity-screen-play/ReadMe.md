@@ -17,6 +17,9 @@ Java(TM) SE Runtime Environment (build 1.8.0_144-b01)
  
  (b). npm install
  
- (c). npm test to run the scripts
+ (c). To run the scripts ------npm test
+ 
+ (d). To run the test using tags -----npm run e2e-tag @Login
+
 
 Note:To run it headless uncomment ---headless under desirabilities defined in protractor.conf.js

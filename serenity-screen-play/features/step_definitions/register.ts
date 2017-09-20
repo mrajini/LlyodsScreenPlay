@@ -1,26 +1,29 @@
-   import {browser} from "protractor";
+   import {browser, protractor} from "protractor";
    import {Actor} from "@serenity-js/core/lib/screenplay";
    import {Start} from "../../spec/screenPlay/tasks/start";
-   import {Click} from "serenity-js/lib/serenity-protractor";
+   import {BrowseTheWeb, Click} from "serenity-js/lib/serenity-protractor";
    import {TodoList} from "../../spec/screenPlay/components/todo_list";
+   import {EnterValues} from "../../spec/screenPlay/tasks/enter";
    export = function toregisterStepDefs() {
-       // browser.waitForAngularEnabled(false);
-       // browser.get('/non-angular-login-page.html');
+        // browser.waitForAngularEnabled(false);
+        // browser.get('/non-angular-login-page.html');
 
        let actor: Actor;
        this.setDefaultTimeout(30 * 1000);
        this.Given(/^that (.*) want to register on Llyod bank$/, function (actorName: string,) {
+           actor = Actor.named(actorName).whoCan(BrowseTheWeb.using(protractor.browser));
            return actor.attemptsTo(
-               // Start.navigateToPage(),
+               Start.navigateToPage(),
                Click.on(TodoList.clicl_on_register),
            );
 
        });
 
 
-       this.When(/^he enters (.*), (.*), (.*)$/, function (arg1, arg2, arg3, callback) {
-
-           callback(null, 'pending');
+       this.When(/^he enters (.*), (.*), (.*)$/, function (Title:string, FirstName:string, LastName:string) {
+           return actor.attemptsTo(
+               new EnterValues(Title,FirstName,LastName),
+           );
        });
 
 

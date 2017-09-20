@@ -7,7 +7,7 @@ so that I can create my account for future logins.
 
   Scenario Outline: Register a new user using invalid details
 
-    Given that RName want to register on Llyod bank
+    Given that RNme want to register on Llyod bank
     When he enters <Title>, <FirstName>, <LastName>
     And gives his Date of birth <Date>, <Month>, <Year>
     And he provides his <PostCode>

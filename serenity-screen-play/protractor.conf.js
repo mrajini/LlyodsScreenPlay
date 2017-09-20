@@ -12,23 +12,23 @@ exports.config = {
     disableChecks: true,
     ignoreUncaughtExceptions: true,
     framework: 'custom',
-    // frameworkPath: require.resolve('protractor-cucumber-framework'),
     frameworkPath: require.resolve('serenity-js'),
     specs: [ 'features/**/*.feature' ],
 
     cucumberOpts: {
         require:    [ 'features/**/*.ts'],
-        // require:    [ 'features/login.ts'],
         format:     'pretty',
-        compiler:   'ts:ts-node/register'
+        compiler:   'ts:ts-node/register',
+        tags:       [ '@smoketest', '@Rajini']
     },
+
 
     capabilities: {
         browserName: 'chrome',
         chromeOptions: {
             args: [
                 'disable-infobars',
-                // 'disable-Angular.js'
+                //--headless'
                 // 'incognito',
                 // 'disable-extensions',
                 // 'show-fps-counter=true'

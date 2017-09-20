@@ -13,7 +13,7 @@ export class Start implements Task{
         return actor.attemptsTo(
             Open.browserOn('/personal/logon/login.jsp'),
 
-    );
+    )
 
     }
 }

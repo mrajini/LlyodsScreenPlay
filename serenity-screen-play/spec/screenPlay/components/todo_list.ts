@@ -18,10 +18,16 @@ export class TodoList{
         .located(by.xpath('//*[@id="frmLogin"]/div/div[1]'));
 
 
-      static Items = Target.the('List of Items').located(by.repeater('todo in todos'));
-
-
     static clicl_on_register = Target.the('register button')
         .located(by.xpath('//*[@title ="register online"]'));
+
+    static enter_title_to_register = Target.the('Title field')
+        .located(by.xpath('//*[@id="frm_personalRegistration:txttitle"]'));
+    static enter_firstName_to_register= Target.the('FirstName field')
+        .located(by.css('[name="frm_personalRegistration:txtFirstName"]'));
+
+    static enter_lastName_to_register= Target.the('LastName field')
+        .located(by.css('[name="frm_personalRegistration:txtsurname"]'));
+
 
 }

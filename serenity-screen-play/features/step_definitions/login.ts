@@ -16,8 +16,7 @@ export = function tosignUpSteps() {
 
     this.Given(/^that (.*) want to login to the llyods bank$/, function (actorName:string) {
         actor = Actor.named(actorName).whoCan(BrowseTheWeb.using(protractor.browser));
-
-       return actor.attemptsTo(
+        return actor.attemptsTo(
             Start.navigateToPage(),
 
         );

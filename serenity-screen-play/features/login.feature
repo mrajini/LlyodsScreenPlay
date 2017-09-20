@@ -1,3 +1,4 @@
+@Login
 Feature: UnRegistered User Login
 
   As a responsible employee,
