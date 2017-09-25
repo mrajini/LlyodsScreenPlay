@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2106680c-05a0-43fc-859b-57c5d3fe8d76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/registration.feature" afterPath="$PROJECT_DIR$/serenity-screen-play/features/registration.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/hooks.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/hooks.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/package.json" afterPath="$PROJECT_DIR$/serenity-screen-play/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" afterPath="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.js" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.js" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.js" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js.map" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js.map" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/enter.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/enter.d.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,28 +65,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1506329536000" expanded="true" signature="2423:2485" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todo_list.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,18 +90,41 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenity-screen-play/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="60" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/registration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-screen-play/protractor.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -205,19 +188,19 @@
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/hooks.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.js" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/tab.ts" />
-        <option value="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" />
         <option value="$PROJECT_DIR$/serenity-screen-play/node_modules/@types/selenium-webdriver/index.d.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/node_modules/@types/node/index.d.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/node_modules/protractor/node_modules/@types/node/index.d.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/select.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.js" />
-        <option value="$PROJECT_DIR$/serenity-screen-play/package.json" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/login.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/questions/todo_List_items.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/registration.feature" />
+        <option value="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/serenity-screen-play/package.json" />
       </list>
     </option>
   </component>
@@ -748,7 +731,7 @@
       <workItem from="1506205350540" duration="4951000" />
       <workItem from="1506264252834" duration="44000" />
       <workItem from="1506264302593" duration="11367000" />
-      <workItem from="1506329484339" duration="2293000" />
+      <workItem from="1506329484339" duration="2974000" />
     </task>
     <task id="LOCAL-00001" summary="Login to Llyods">
       <created>1505727780331</created>
@@ -778,11 +761,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505924794486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Successful tests added for Registration">
+      <created>1506333353358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506333353358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189004000" />
+    <option name="totallyTimeSpent" value="189685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +795,7 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5530547" sideWeight="0.47729084" order="14" side_tool="false" content_ui="tabs" x="0" y="38" width="1280" height="701" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.49003986" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014394581" sideWeight="0.8045685" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2726503" sideWeight="0.8045685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25418326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19043887" sideWeight="0.19543147" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1215,7 +1205,8 @@
     <MESSAGE value="Login to Llyods" />
     <MESSAGE value="Updated type package.json and ReadMe file" />
     <MESSAGE value="Added two working steps to Registration feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two working steps to Registration feature" />
+    <MESSAGE value="Successful tests added for Registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successful tests added for Registration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1289,21 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1446,17 +1422,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-screen-play/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/start.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,20 +1458,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-screen-play/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506329536000" expanded="true" signature="2423:2485" ph="{...}" />
+            <marker date="1506333320000" expanded="true" signature="2423:2485" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1568,9 +1530,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/registration.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/protractor.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="60" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
