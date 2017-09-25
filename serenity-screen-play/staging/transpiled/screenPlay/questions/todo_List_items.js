@@ -7,6 +7,7 @@ var TodoListItems = (function () {
     }
     return TodoListItems;
 }());
-TodoListItems.errorDisplayed = text_1.Text.of(todo_list_1.TodoList.error_message_displayed);
+TodoListItems.errorDisplayedForLogin = text_1.Text.of(todo_list_1.TodoList.error_message_displayed_for_login);
+TodoListItems.errorDisplayedForRegistration = text_1.Text.of(todo_list_1.TodoList.error_message_for_registration);
 exports.TodoListItems = TodoListItems;
 //# sourceMappingURL=todo_List_items.js.map

@@ -10,11 +10,7 @@
     "report": "serenity run",
     "preprotractor": "webdriver-manager update --standalone --versions.standalone 3.0.1",
     "protractor": "protractor ./protractor.conf.js",
-    "test":"failsafe clean protractor report",
-    "e2e": "protractor ./protractor.conf.js",
-    "e2e-scenario": "protractor ./protractor.conf.js --cucumberOpts.name",
-    "e2e-tag": "protractor ./protractor.conf.js --cucumberOpts.tags"
-
+    "test":"failsafe clean protractor report"
   },
   "repository": {
     "type": "git",
@@ -44,7 +40,7 @@
     "serenity-cli": "^0.7.0",
     "ts-node": "3.0.6",
     "tslint": "5.4.3",
-    "typescript": "2.4.0",
+    "typescript": "2.3.4",
     "serenity-js": "^1.8.0",
     "angular": "^1.6.6"
   }

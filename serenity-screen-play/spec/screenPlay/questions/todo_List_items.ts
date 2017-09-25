@@ -6,6 +6,6 @@ import {Text} from "../../text";
 export class TodoListItems {
 
 
-    static errorDisplayed = Text.of(TodoList.error_message_displayed);
-
+    static errorDisplayedForLogin = Text.of(TodoList.error_message_displayed_for_login);
+    static errorDisplayedForRegistration = Text.of(TodoList.error_message_for_registration);
 }

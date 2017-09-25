@@ -12,6 +12,7 @@ exports.config = {
     disableChecks: true,
     ignoreUncaughtExceptions: true,
     framework: 'custom',
+
     frameworkPath: require.resolve('serenity-js'),
     specs: [ 'features/**/*.feature' ],
 
@@ -19,7 +20,7 @@ exports.config = {
         require:    [ 'features/**/*.ts'],
         format:     'pretty',
         compiler:   'ts:ts-node/register',
-        tags:       [ '@smoketest', '@Rajini']
+        // tags:       [ '@smoketest', '@Rajini']
     },
 
 
@@ -34,5 +35,8 @@ exports.config = {
                 // 'show-fps-counter=true'
             ]
         }
-    }
+    },
+    onPrepare: function () {
+        browser.ignoreSynchronization = true;
+    },
 };

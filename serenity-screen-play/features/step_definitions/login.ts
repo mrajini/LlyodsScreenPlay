@@ -8,8 +8,8 @@ import {TodoListItems} from "../../staging/transpiled/screenPlay/questions/todo_
 
 
 export = function tosignUpSteps() {
-    browser.waitForAngularEnabled(false);
-    browser.get('/non-angular-login-page.html');
+    // browser.waitForAngularEnabled(false);
+    // browser.get('/non-angular-login-page.html');
 
     let actor:Actor;
     this.setDefaultTimeout(30 * 1000);
@@ -40,14 +40,14 @@ export = function tosignUpSteps() {
     });
     this.Then(/^he should not get successful login message containing that (.*)$/, function (items:string) {
         return actor.attemptsTo(
-            See.if(TodoListItems.errorDisplayed, actual => expect(actual).to.eventually.not.equal(items)),
+            See.if(TodoListItems.errorDisplayedForLogin, actual => expect(actual).to.eventually.not.equal(items)),
         );
     });
 
     this.Then(/^he should get error message containing that (.*)$/, function (items:string) {
 
          return actor.attemptsTo(
-             See.if(TodoListItems.errorDisplayed, actual => expect(actual).to.eventually.contain(items)),
+             See.if(TodoListItems.errorDisplayedForLogin, actual => expect(actual).to.eventually.contain(items)),
          );
 
     });
