@@ -64,7 +64,39 @@ export class TodoList{
     static credit_card_number= Target.the('card number')
         .located(by.css('[name="frm_personalRegistration:creditCard"]'));
 
+    static reference_loan_number= Target.the('Reference Number')
+        .located(by.css('[name="frm_personalRegistration:strLoanAccountNumber"]'));
 
+    static mortgage_number= Target.the('Mortgage account number')
+        .located(by.css('[name="frm_personalRegistration:strMortgageAccountNumber"]'));
+
+    //Locators of Log On Page***************
+
+
+
+    static Log_on_page_title= Target.the('LogOn page Title')
+        .located(by.css('.inner>h1'));
+
+    static user_id= Target.the('User Id')
+        .located(by.xpath('//input[@id="frm_Username:txtUsername"]'));
+
+    static preferred_password= Target.the('Password')
+        .located(by.css('[name="frm_Username:txtPassword"]'));
+
+    static confirm_password= Target.the('Confirm Password')
+        .located(by.css('[name="frm_Username:txtPassword1"]'));
+
+    static email_id= Target.the('mail id')
+        .located(by.xpath('//input[@id="frm_Username:txtEmail"]'));
+
+    static terms_and_conditions= Target.the('checkbox for T&C')
+        .located(by.css('[name="frm_Username:bchkbxTmpLegals"]'));
+
+    static security_reasons_text= Target.the('security reasons message')
+        .located(by.css('.panel>h1'));
+
+    static submit_log_on_form= Target.the('continue btn on log on form')
+        .located(by.css('[name="frm_Username:btnContinuebutton"]'));
 
 }
 

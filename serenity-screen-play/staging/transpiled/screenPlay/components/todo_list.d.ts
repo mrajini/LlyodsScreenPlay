@@ -18,4 +18,14 @@ export declare class TodoList {
     static click_on_continue_to_register: Target;
     static error_message_for_registration: Target;
     static credit_card_number: Target;
+    static reference_loan_number: Target;
+    static mortgage_number: Target;
+    static Log_on_page_title: Target;
+    static user_id: Target;
+    static preferred_password: Target;
+    static confirm_password: Target;
+    static email_id: Target;
+    static terms_and_conditions: Target;
+    static security_reasons_text: Target;
+    static submit_log_on_form: Target;
 }

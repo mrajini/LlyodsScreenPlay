@@ -9,4 +9,6 @@ var TodoListItems = (function () {
 }());
 TodoListItems.errorDisplayedForLogin = text_1.Text.of(todo_list_1.TodoList.error_message_displayed_for_login);
 TodoListItems.errorDisplayedForRegistration = text_1.Text.of(todo_list_1.TodoList.error_message_for_registration);
+TodoListItems.messageDisplayedOnLogOnPage = text_1.Text.of(todo_list_1.TodoList.Log_on_page_title);
+TodoListItems.messageDisplayedForFailedRegister = text_1.Text.of(todo_list_1.TodoList.security_reasons_text);
 exports.TodoListItems = TodoListItems;

@@ -20,3 +20,12 @@ export declare class AccountDetails implements Task {
     performAs(actor: PerformsTasks): Promise<void>;
     constructor(SortCode: string, AccountNumber: string);
 }
+export declare class LogOnPageForm implements Task {
+    private UserId;
+    private Password;
+    private ConfirmPassword;
+    private Email;
+    static fill_log_on_form(UserId: string, Password: string, ConfirmPassword: string, Email: string): LogOnPageForm;
+    performAs(actor: PerformsTasks): Promise<void>;
+    constructor(UserId: string, Password: string, ConfirmPassword: string, Email: string);
+}

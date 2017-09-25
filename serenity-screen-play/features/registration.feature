@@ -5,6 +5,8 @@ Feature: Sign up a new user
   I want to sign up to Llyods bank
   so that I can create my account for future logins.
 
+
+
 @Registration
   Scenario Outline: Register a new user using invalid details
 
@@ -25,4 +27,6 @@ Feature: Sign up a new user
       | Mrs    | Edward    | Liberty  |      |       |      | WD17 1JJ | 203721   | 23456789      | Please amend the fields highlighted below |
       | Mrs    | MName     | MLast    | 22   | Feb   | 1998 |          | 345678   | 12345678      | Please amend the fields highlighted below |
       | Master | WName     | WLast    | 15   | Jun   | 1981 | Kt7 0sr  | 123456   | 1234567       | Please amend the fields highlighted below |
+
+
 
