@@ -1,10 +1,11 @@
-@Rajini
+@SmokeTest
 Feature: Sign up a new user
 
   As a new user,
   I want to sign up to Llyods bank
   so that I can create my account for future logins.
 
+@Registration
   Scenario Outline: Register a new user using invalid details
 
     Given that <FirstName> want to register on Llyod bank

@@ -20,7 +20,7 @@ exports.config = {
         require:    [ 'features/**/*.ts'],
         format:     'pretty',
         compiler:   'ts:ts-node/register',
-        tags:       [ '@smoketest', '@Rajini']
+        tags:       [ '@SmokeTest', '@Rajini']
     },
 
 

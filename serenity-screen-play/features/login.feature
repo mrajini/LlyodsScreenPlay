@@ -1,10 +1,10 @@
-@Login
+@SmokeTest
 Feature: UnRegistered User Login
 
   As a responsible employee,
   I want to skip register and login to Llyods Bank,
   so that I should see that login will be unsuccessful.
-
+  @Login
   Scenario: Login to Llyods bank without registering to it.
     Given that RName want to login to the llyods bank
     When he enters his user id as RName@gmail.com
