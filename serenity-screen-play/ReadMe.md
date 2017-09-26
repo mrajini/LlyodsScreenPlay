@@ -17,6 +17,11 @@ Java(TM) SE Runtime Environment (build 1.8.0_144-b01)
  
  (b). npm install
  
- (c). To run the test using tags -----npm run e2e-tag @Login
+ (c). To run the test using tags -----npm run e2e-tag @SmokeTest ----For all the tests
+                                 -----npm run e2e-tag @Login ----For Login
+                                 -----npm run e2e-tag @Registration ----For Registration with savings account
+                                  -----npm run e2e-tag @Credit ----For Registration with credit card account
+                                   -----npm run e2e-tag @Loan ----For Registration with loan account
+                                    -----npm run e2e-tag @Mortgage ----For Registration with mortgage account
 
  (d). To run it headless uncomment ---headless under desirabilities defined in protractor.conf.js

@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2106680c-05a0-43fc-859b-57c5d3fe8d76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/ReadMe.md" afterPath="$PROJECT_DIR$/serenity-screen-play/ReadMe.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature" afterPath="$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/regWithAccounts.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/regWithAccounts.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/expect.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/expect.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/components/todo_list.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/questions/todo_List_items.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/enter.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/enter.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js.map" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/screenPlay/tasks/start.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.d.ts" afterPath="$PROJECT_DIR$/serenity-screen-play/staging/transpiled/text.d.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,8 +88,8 @@
       <file leaf-file-name="regWithAccounts.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,8 +121,8 @@
         <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -198,7 +190,6 @@
         <option value="$PROJECT_DIR$/serenity-screen-play/features/login.feature" />
         <option value="$PROJECT_DIR$/serenity-screen-play/package.json" />
         <option value="$PROJECT_DIR$/serenity-screen-play/protractor.conf.js" />
-        <option value="$PROJECT_DIR$/serenity-screen-play/ReadMe.md" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.js" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/registration.feature" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/register.ts" />
@@ -206,9 +197,10 @@
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/components/todo_list.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/regWithAccounts.js" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.js" />
-        <option value="$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature" />
         <option value="$PROJECT_DIR$/serenity-screen-play/spec/screenPlay/tasks/enter.ts" />
         <option value="$PROJECT_DIR$/serenity-screen-play/features/step_definitions/regWithAccounts.ts" />
+        <option value="$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature" />
+        <option value="$PROJECT_DIR$/serenity-screen-play/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -641,7 +633,7 @@
       <workItem from="1506264302593" duration="11367000" />
       <workItem from="1506329484339" duration="20450000" />
       <workItem from="1506415592439" duration="11541000" />
-      <workItem from="1506435372730" duration="295000" />
+      <workItem from="1506435372730" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="Login to Llyods">
       <created>1505727780331</created>
@@ -699,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506356693742</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Tests to capture registration with different account types">
+      <created>1506436097487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506436097487</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218997000" />
+    <option name="totallyTimeSpent" value="219464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1306,6 +1305,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,6 +1406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,14 +1444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/registration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1463,14 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1493,6 +1478,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/regWithAccounts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-screen-play/features/registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-screen-play/ReadMe.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1501,8 +1502,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
             <folding />
           </first_editor>
           <second_editor />

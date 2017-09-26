@@ -11,6 +11,7 @@ Feature: Register a new user with different account types
     And he enters his details as Mr,Daniel,Parker
     And gives his Date of birth as 21,Oct,1998
     And he enters his address WD171JJ
+
  @Credit
   Scenario:Register to Llyods as a credit card holder
 
