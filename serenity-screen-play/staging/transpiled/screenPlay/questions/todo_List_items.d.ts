@@ -1,7 +1,6 @@
-import { Question } from 'serenity-js/lib/screenplay-protractor';
 export declare class TodoListItems {
-    static errorDisplayedForLogin: Question<PromiseLike<string>>;
-    static errorDisplayedForRegistration: Question<PromiseLike<string>>;
-    static messageDisplayedOnLogOnPage: Question<PromiseLike<string>>;
-    static messageDisplayedForFailedRegister: Question<PromiseLike<string>>;
+    static errorDisplayedForLogin: any;
+    static errorDisplayedForRegistration: any;
+    static messageDisplayedOnLogOnPage: any;
+    static messageDisplayedForFailedRegister: any;
 }

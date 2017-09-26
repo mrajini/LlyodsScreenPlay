@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var screenplay_1 = require("serenity-js/lib/screenplay");
 var screenplay_protractor_1 = require("serenity-js/lib/screenplay-protractor");
 var Start = (function () {
     function Start() {
@@ -24,8 +25,9 @@ var Start = (function () {
 __decorate([
     screenplay_protractor_1.step('{0} Navigates to sign in page'),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [typeof (_a = typeof screenplay_1.PerformsTasks !== "undefined" && screenplay_1.PerformsTasks) === "function" && _a || Object]),
     __metadata("design:returntype", Object)
 ], Start.prototype, "performAs", null);
 exports.Start = Start;
+var _a;
 //# sourceMappingURL=start.js.map

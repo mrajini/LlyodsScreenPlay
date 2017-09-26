@@ -75,27 +75,45 @@ export class AccountDetails implements Task{
 
 
 }
+export function randomString(length_) {
 
-export class LogOnPageForm implements Task{
-    static fill_log_on_form(UserId:string,Password:string,ConfirmPassword:string,Email:string){
-        return new LogOnPageForm(UserId,Password,ConfirmPassword,Email);
+    let chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
+    if (typeof length_ !== "number") {
+        length_ = Math.floor(Math.random() * chars.length);
     }
-    performAs(actor:PerformsTasks){
-        return actor.attemptsTo(
-            Enter.theValue(this.UserId)
-                .into(TodoList.user_id),
-        Enter.theValue(this.Password)
-            .into(TodoList.preferred_password),
-        Enter.theValue(this.ConfirmPassword)
-            .into(TodoList.confirm_password),
-        Enter.theValue(this.Email)
-            .into(TodoList.email_id),
-            Click.on(TodoList.terms_and_conditions)
-
-        );
+    let str = '';
+    for (let i = 0; i < length_; i++) {
+        str += chars[Math.floor(Math.random() * chars.length)];
     }
-    constructor(private UserId:string,private Password:string,private ConfirmPassword:string,private Email:string){
-
-    }
-
+    return str;
 }
+
+let UserId = randomString(10);
+export class LogOnPageForm implements Task {
+
+    static fill_log_on_form(UserId: string, Password: string, ConfirmPassword: string, Email: string) {
+        return new LogOnPageForm(UserId, Password, ConfirmPassword, Email);
+    }
+
+    performAs(actor: PerformsTasks) {
+        return actor.attemptsTo(
+            Enter.theValue(randomString(10))
+                .into(TodoList.user_id),
+            Enter.theValue(this.Password)
+                .into(TodoList.preferred_password),
+            Enter.theValue(this.ConfirmPassword)
+                .into(TodoList.confirm_password),
+            Enter.theValue(this.Email)
+                .into(TodoList.email_id),
+            Click.on(TodoList.terms_and_conditions)
+        )
+
+    }
+
+    constructor(private UserId: string, private Password: string, private ConfirmPassword: string, private Email: string) {
+
+    }
+}
+
+
+

@@ -3,7 +3,7 @@ import {BrowseTheWeb, Click, Enter} from "serenity-js/lib/serenity-protractor";
 import {protractor} from "protractor";
 import {TodoList} from "../../spec/screenPlay/components/todo_list";
 import {Start} from "../../spec/screenPlay/tasks/start";
-import {EnterValues, LogOnPageForm, ProvidePostCode} from "../../spec/screenPlay/tasks/enter";
+import {EnterValues, LogOnPageForm, ProvidePostCode, randomString} from "../../spec/screenPlay/tasks/enter";
 import {SelectAccountType, SelectDates} from "../../spec/screenPlay/tasks/select";
 import {TodoListItems} from "../../spec/screenPlay/questions/todo_List_items";
 import {expect} from "../../spec/expect";
@@ -14,7 +14,10 @@ import {get} from "http";
 export = function toregWithAccountsStepDefs() {
 
     let actor: Actor;
+    let RandomNumber = (new Date().getTime());
     this.setDefaultTimeout(30 * 1000);
+
+             //Register with credit card account
 
     this.Given(/^that (.*) want to register on Llyod bank with different account types$/, function (actorName: string) {
         actor = Actor.named(actorName).whoCan(BrowseTheWeb.using(protractor.browser));
@@ -72,7 +75,7 @@ export = function toregWithAccountsStepDefs() {
         )
     });
 
-
+     //Register with Loan account
 
 
    this.When(/^Daniel chooses the account type as (.*)$/, function (AccountType:string) {
@@ -85,7 +88,7 @@ export = function toregWithAccountsStepDefs() {
 
     this.When(/^he fills the Reference number as (.*)$/, function (ReferenceNumber:string) {
         return actor.attemptsTo(
-            Enter.theValue(ReferenceNumber)
+            Enter.theValue(ReferenceNumber+RandomNumber)
                 .into(TodoList.reference_loan_number)
         )
     });
@@ -122,4 +125,50 @@ export = function toregWithAccountsStepDefs() {
         )
     });
 
+     //Registration with Mortgage account
+
+    this.When(/^Daniel enters the account type as (.*)$/, function (AccountType:string) {
+        return actor.attemptsTo(
+            new SelectAccountType(AccountType)
+        )
+    });
+
+    this.When(/^he enters the Mortgage account number as (.*)$/, function (MortgageAccountNumber:string) {
+        return actor.attemptsTo(
+
+            Enter.theValue(MortgageAccountNumber+RandomNumber)
+                .into(TodoList.mortgage_number)
+        )
+    });
+    this.When(/^he continue to register$/, function () {
+        return actor.attemptsTo(
+            Click.on(TodoList.click_on_continue_to_register)
+        )
+    });
+
+
+    this.Then(/^he should be able to see the logon page with text (.*)$/, function (LogOnPage:string) {
+        return actor.attemptsTo(
+            See.if(TodoListItems.messageDisplayedOnLogOnPage, actual => expect(actual).to.eventually.equal(LogOnPage))
+        )
+    });
+    this.When(/^he complete the logon form by giving the (.*),(.*),(.*),(.*)$/, function (UserId:string,PreferredPassword:string,ConfirmPassword:string,Email:string) {
+        return actor.attemptsTo(
+            new LogOnPageForm(UserId,PreferredPassword,ConfirmPassword,Email)
+        )
+    });
+    this.When(/^he submits the Logon form$/, function () {
+        return actor.attemptsTo(
+            Click.on(TodoList.submit_log_on_form)
+        )
+    });
+    this.Then(/^he should be able to see a page with security message (.*)$/, function (SecurityMessage:string) {
+        return actor.attemptsTo(
+            See.if(TodoListItems.messageDisplayedForFailedRegister, actual => expect(actual).to.eventually.equal(SecurityMessage))
+        )
+    });
+
+
 };
+
+
